@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Course Material</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="menu.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <section id="content">
+        <div class="wrapper">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+
+
+                <ul class="list-unstyled components" >
+                    <li>
+                        <a href="#" class="listhead">Course List</a>
+                        <ul class="list-unstyled components">
+                            <li>
+                                <a href="#basics">Basics <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li>
+                                <a href="#html">Html</a>
+                            </li>
+                            <li>
+                                <a href="#css">CSS</a>
+                            </li>
+                            <li>
+                                <a href="#bootstrap">Bootstrap</a>
+                            </li>
+                            <li>
+                                <a href="#">Challenge 1</a>
+                            </li>
+                            <li>
+                                <a href="#js">Javascript</a>
+                            </li>
+                            <li>
+                                <a href="#ajs">Advanced Js</a>
+                            </li>
+                            <li>
+                                <a href="#">Challenge 2</a>
+                            </li>
+                            <li>
+                                <a href="#dom">DOM</a>
+                            </li>
+                            <li>
+                                <a href="#adom">Advanced DOM</a>
+                            </li>
+                            <li>
+                                <a href="#jq">Jquery</a>
+                            </li>
+                            <li>
+                                <a href="#">Boss Challenge</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#whatMore">What's more?</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <!-- Page Content  -->
+            <section>
+                <button type="button" id="sidebarCollapse" class="btn menu-btn">
+                    <img src="nav.png" alt="Menu">
+                </button>
+                <div class="jumbotron" style="padding: 2rem 1rem;">
+                    <h1 class="display-4">Web Development</h1>
+                    <p class="lead">Build your own beautiful front end website and deploy it to the world wide web</p>
+                    <!-- <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+                </div>
+                <section id="cards">
+                    <div class="card-deck ">
+                        <div class="card" id="basics">
+                            <img class="card-img-top" src="images/basics.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Basics</h5>
+                                <p class="card-text" id="basic-p">In this tutorial we will cover the basics of the
+                                    Internet and website and will have a look in the course.</p>
+                            </div>
+                            <button class="btn btn-link" id="basic-btn">
+                                Topics Covered>>
+                            </button>
+                        </div>
+                        <div class="card" id='html'>
+                            <img class="card-img-top" src="images/html.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Html</h5>
+                                <p class="card-text" id="html-p">This Tutorial covers the very beginning of the building
+                                    block of a
+                                    website and designing of the structure of the website.</p>
+                            </div>
+                            <button class="btn btn-link" id="html-btn">
+                                Topics Covered>>
+                            </button>
+                        </div>
+                        <div class="card" id="css">
+                            <img class="card-img-top" src="images/css.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">CSS</h5>
+                                <p class="card-text" id="css-p">In this tutorial we will learn about our color palletes
+                                    to make our
+                                    website
+                                    more beautiful, and eye catching.
+                                </p>
+                            </div>
+                            <button class="btn btn-link" id="css-btn">
+                                Topics Covered>>
+                            </button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-deck" style="margin-top: 6%;">
+                        <div class="card" id="bootstrap">
+                            <img class="card-img-top" src="images/bootstrap.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">BootStrap</h5>
+                                <p class="card-text" id="bootstrap-p">This tutorial covers the very popular way of
+                                    making our website
+                                    more eye soothing
+                                    materialistic design and making it more responsive.
+                                </p>
+                            </div>
+                            <button class="btn btn-link" id="bootstrap-btn">
+                                Topics Covered>>
+                            </button>
+                        </div>
+                        <div class="card" id="c1">
+                            <img class="card-img-top" src="images/Challenge_Logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Challenge 1</h5>
+                                <p class="card-text" id="c1-p">Students will be creating a website incorporating what
+                                    they have learned
+                                    in previous lessons using the concepts of HTML, CSS and Bootstrap.
+                                </p>
+                            </div>
+                            <button class="btn btn-link" id="c1-btn">
+                                Resource>>
+                            </button>
+                        </div>
+                        <div class="card" id="js">
+                            <img class="card-img-top" src="images/js.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">JavaScript</h5>
+                                <p class="card-text" id="js-p">In this Tutorial we will cover the basics of the
+                                    programming
+                                    language
+                                    which can be used with the website.</p>
+                            </div>
+                            <button class="btn btn-link" id="js-btn">
+                                Topics Covered>>
+                            </button>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="card-deck" style="margin-top: 6%;">
+                        <div class="card" id="ajs">
+                            <img class="card-img-top" src="images/ajs.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Advanced JS</h5>
+                                <p class="card-text" id="ajs-p">This Tutorial covers the higher order functions and
+                                    methods which
+                                    are very essential for our website to look more competitive with the real websites.
+                                </p>
+                            </div>
+                            <button class="btn btn-link" id="ajs-btn">
+                                Topics Covered>>
+                            </button>
+                        </div>
+
+
+                        <div class="card" id="c2">
+                            <img class="card-img-top" src="images/Challenge_Logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Challenge 2</h5>
+                                <p class="card-text" id="c2-p">Students will be developing a program using the concepts
+                                    of Javascript and
+                                    their own mental Ability to solve a real life problem using the programming
+                                    language.
+                                </p>
+                            </div>
+                            <button class="btn btn-link" id="c2-btn">
+                                Resource>>
+                            </button>
+                        </div>
+
+
+                        <div class="card" id="dom">
+                            <img class="card-img-top" src="images/DOM.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">DOM</h5>
+                                <p class="card-text" id="dom-p">This tutorial covers the begining of Data Object
+                                    Modeling and how
+                                    we can use the programming language in the website.
+                                </p>
+                            </div>
+                            <button class="btn btn-link" id="dom-btn">
+                                Topics Covered>>
+                            </button>
+                        </div>
+
+
+                    </div>
+                    <div class="card-deck" style="margin-top: 6%;">
+                        <div class="card" id="adom">
+                            <img class="card-img-top" src="images/adom.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Advanced DOM</h5>
+                                <p class="card-text" id="adom-p">In this Tutorial we will learn about tracking the
+                                    events and
+                                    changing the content of the website while detecting the activity by the user.</p>
+                            </div>
+                            <button class="btn btn-link" id="adom-btn">
+                                Topics Covered>>
+                            </button>
+                        </div>
+                        <div class="card" id="jq">
+                            <img class="card-img-top" src="images/jquery.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Jquery</h5>
+                                <p class="card-text" id="jq-p">The Final lesson includes the minification of our work in
+                                    writing
+                                    the Javascript and making the work much easier while using complicated methods.</p>
+                            </div>
+                            <button class="btn btn-link" id="jq-btn">
+                                Topics Covered>>
+                            </button>
+                        </div>
+                        <div class="card" id="c3">
+                            <img class="card-img-top" src="images/Challenge_Logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Boss Challenge</h5>
+                                <p class="card-text" id="c3-p">In the Final Challenge students will be using everything
+                                    to develop a
+                                    their own responsive and interactive portfolio website and deploying it to the world
+                                    wide web.
+                                </p>
+                            </div>
+                            <button class="btn btn-link" id="c3-btn">
+                                Resource>>
+                            </button>
+                        </div>
+                    </div>
+
+                </section>
+                <div class="card mb-3" style="margin: 1rem 2rem;" id="whatMore">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">What's More?</h5>
+                                <p class="card-text">Once You have become Masters of the front end development we have
+                                    got the course for the back end development just right for you.
+                                    Using the amazing and highly buzzed Technology Node, Express and React we will build
+                                    the backend portion of our website enabling the webpage to store the information
+                                    and allowing the users to view and modify their personal needs.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/whatMore.jpeg" class="card-img" alt="announcement">
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="container contact-form" id="contact">
+                    <div class="contact-image">
+                        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
+                    </div>
+                    <form method="post" action="https://mailto:kauagg111@gmail.com">
+                        <h3>Drop Us a Message</h3>
+                        <div class="row" style>
+                            <div style="margin: auto;">
+                                <div class="form-group">
+                                    <input type="text" name="txtName" class="form-control" required
+                                        placeholder="Your Name *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="txtEmail" class="form-control" required
+                                        placeholder="Your Email *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtPhone" class="form-control" required
+                                        placeholder="Your Phone Number *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" style="width: auto;padding: 0.5em;;"/>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+
+        </div>
+    </section>
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
